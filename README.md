@@ -1,0 +1,1 @@
+# SEO Void AI
