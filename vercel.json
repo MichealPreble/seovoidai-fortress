@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "seovoidai_complete.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "seovoidai_complete.py"
+    }
+  ]
+}
